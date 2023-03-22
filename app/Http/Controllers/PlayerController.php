@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Player;
 use Database\Seeders\PlayerSeeder;
 use Illuminate\Support\Facades\Artisan;
+use Illuminate\Routing\Controller;
 
 class PlayerController extends Controller
 {
