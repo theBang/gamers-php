@@ -21,7 +21,6 @@ Install dependencies with Docker:
 
     docker run --rm -it \
         --volume $PWD:/app \
-        --user $(id -u):$(id -g) \
         composer create-project
 
 Create `.env` from the `.env.example`.
